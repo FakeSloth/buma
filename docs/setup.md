@@ -7,6 +7,9 @@ to start this project.
 
 - [Initial Files](#initial-files)
 - [MongoDB](#mongodb)
+- [App Configuration](#config)
+- [Bower](#bower)
+- [Grunt](#grunt)
 - [Depedencies](#dependencies)
 
 <a name="initial-files" />
@@ -24,6 +27,15 @@ variables.
 ## MongoDB
 
 We are using the MongoDB NoSql database. If you haven't mess around with 
-MongoDB yet, here is a good [introduction](MongoDB) to it.
+MongoDB yet, here is a good [introduction](mongodb) to it.
 
-[MongoDB]: https://scotch.io/tutorials/an-introduction-to-mongodb
+<a name="config" />
+## App Configuration
+
+We are using [Jade](jade) to render out to html. This has many advantages like 
+template inheritance, looping, and other great stuff.
+
+TODO: more app config and error handlers
+
+[mongodb]: https://scotch.io/tutorials/an-introduction-to-mongodb
+[jade]: http://jade-lang.com
