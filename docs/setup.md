@@ -26,15 +26,15 @@ MongoDB
 -------
 
 We are using the MongoDB NoSql database. If you haven't mess around with 
-MongoDB yet, here is a good [introduction](1) to it.
+MongoDB yet, here is a good [introduction][mongodb] to it.
 
 <a name="config" />
 ## App Configuration
 
-We are using [Jade](2) to render out to html. This has many advantages like 
+We are using [Jade][jade] to render out to html. This has many advantages like 
 template inheritance, looping, and other great stuff.
 
 TODO: more app config and error handlers
 
-[1]: https://scotch.io/tutorials/an-introduction-to-mongodb
-[2]: http://jade-lang.com
+[mongodb]: https://scotch.io/tutorials/an-introduction-to-mongodb
+[jade]: http://jade-lang.com
