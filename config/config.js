@@ -1,5 +1,7 @@
 var config = {};
 
-config.PORT = process.env.PORT || 3000;
+config.port = process.env.PORT || 3000;
+
+config.mongodb = process.env.MONGODB || 'mongodb://localhost:27017/test';
 
 module.exports = config;
