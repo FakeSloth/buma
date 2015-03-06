@@ -83,3 +83,28 @@ Here are all the following dependencies we have so far and what they do:
 | jade                     | A clean, whitespace-sensitive template language for writing HTML              |
 | mongoose                 | MongoDB object modeling tool designed to work in an asynchronous environment. |
 | morgan                   | HTTP request logger middleware for node.js.                                   |
+
+# Project Structure
+
+Here is what the project should look like so far:
+
+```
+|---app                       # application's MVC (Model View Controller) architecture
+¦   |---controllers           # handling routes
+¦         main_controller.js  // handle index (/) routes
+¦   |---views
+¦       |---layouts           // base html templates
+¦           error.jade        // 404 or 500 error page
+¦           index.jade        // home page
+|---config
+¦     config.js               // configuration variables
+¦     routes.js               // routing
+|---docs                      # documentation
+|---public                    # static files
+    |---bower_components      # third-parties frontend libaries/frameworks
+¦ bower.json                  // bower dependencies
+¦ package.json                // npm dependencies
+¦ server.js                   // application setup
+```
+
+TODO: Take a look at all the files at this [Git commit](404).
