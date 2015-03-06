@@ -50,5 +50,20 @@ interactions (request and responses) in the `app/controllers` folder. This is
 because once our application gets huge, it is much easier to keep track and 
 manage all our routes this way.
 
+Bower
+-----
+
+We will used bower to manage frontend dependencies like bootstrap. First, 
+use `bower init` to generate a `bower.json` file. This is similar to the 
+`package.json` where it contains the dependencies' name and it's version. The 
+`.bowerrc` is to specify where we want the dependencies installed. In this 
+case, we want it installed in the `public` folder. Bower creates a folder 
+called `bower_compontents` that contains all our dependencies.
+
+The first dependency we are going to installed is `bootstrap` using the 
+command  `bower install bootstrap --save`. The `--save` is to specify saving 
+it the `bower.json` file. Add `bower_components` in `.gitignore` as the user 
+can just `bower install` the dependencies.
+
 [mongodb]: https://scotch.io/tutorials/an-introduction-to-mongodb
 [jade]: http://jade-lang.com
