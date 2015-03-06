@@ -7,9 +7,8 @@ to start this project.
 
 - [Initial Files](#initial-files)
 - [MongoDB](#mongodb)
-- [App Configuration](#config)
+- [App Configuration](#app-configuration)
 - [Bower](#bower)
-- [Grunt](#grunt)
 - [Depedencies](#dependencies)
 - [Project Structure](#project-structure)
 
@@ -49,7 +48,7 @@ errors.
 We abstract our routes into a `config/routes.js` file and handle all routing 
 interactions (request and responses) in the `app/controllers` folder. This is 
 because once our application gets huge, it is much easier to keep track and 
-manage of all our routes this way.
+manage all our routes this way.
 
 [mongodb]: https://scotch.io/tutorials/an-introduction-to-mongodb
 [jade]: http://jade-lang.com
