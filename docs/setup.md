@@ -89,19 +89,19 @@ Here are all the following dependencies we have so far and what they do:
 Here is what the project should look like so far:
 
 ```
-|---app                       # application's MVC (Model View Controller) architecture
-¦   |---controllers           # handling routes
+|---app/                      # application's MVC (Model View Controller) architecture
+¦   |---controllers/          # handling routes
 ¦         main_controller.js  // handle index (/) routes
-¦   |---views
-¦       |---layouts           // base html templates
+¦   |---views/
+¦       |---layouts/          // base html templates
 ¦           error.jade        // 404 or 500 error page
 ¦           index.jade        // home page
-|---config
+|---config/
 ¦     config.js               // configuration variables
 ¦     routes.js               // routing
-|---docs                      # documentation
-|---public                    # static files
-    |---bower_components      # third-parties frontend libaries/frameworks
+|---docs/                     # documentation
+|---public/                   # static files
+    |---bower_components/     # third-parties frontend libaries/frameworks
 ¦ bower.json                  // bower dependencies
 ¦ package.json                // npm dependencies
 ¦ server.js                   // application setup
