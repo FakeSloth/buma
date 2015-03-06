@@ -28,6 +28,8 @@ MongoDB
 We are using the MongoDB NoSql database. If you haven't mess around with 
 MongoDB yet, here is a good [introduction][mongodb] to it.
 
+[mongodb]: https://scotch.io/tutorials/an-introduction-to-mongodb
+
 App Configuration
 -----------------
 
@@ -50,6 +52,8 @@ interactions (request and responses) in the `app/controllers` folder. This is
 because once our application gets huge, it is much easier to keep track and 
 manage all our routes this way.
 
+[jade]: http://jade-lang.com
+
 Bower
 -----
 
@@ -65,5 +69,17 @@ command  `bower install bootstrap --save`. The `--save` is to specify saving
 it the `bower.json` file. Add `bower_components` in `.gitignore` as the user 
 can just `bower install` the dependencies.
 
-[mongodb]: https://scotch.io/tutorials/an-introduction-to-mongodb
-[jade]: http://jade-lang.com
+Dependencies
+------------
+
+Here are all the following dependencies we have so far and what they do:
+
+| Package                  | Description                                                                   |
+| ------------------------ |:-----------------------------------------------------------------------------:|
+| bcrypt-nodejs            | Library for hashing and salting user passwords.                               |
+| body-parser              | Node.js body parsing middleware.                                              |
+| chalk                    | Get color and style in your node.js console.                                  |
+| express                  | Fast, unopinionated, minimalist web framework.                                |
+| jade                     | A clean, whitespace-sensitive template language for writing HTML              |
+| mongoose                 | MongoDB object modeling tool designed to work in an asynchronous environment. |
+| morgan                   | HTTP request logger middleware for node.js.                                   |
