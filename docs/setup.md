@@ -11,6 +11,7 @@ to start this project.
 - [Bower](#bower)
 - [Grunt](#grunt)
 - [Depedencies](#dependencies)
+- [Project Structure](#project-structure)
 
 Initial Files
 -------------
@@ -42,8 +43,13 @@ Body parser is for being able to parse form requests and json.
 Static files are for CSS, JavaScript, and images file being using on the 
 client. CORS requests being enabled are for json web token authentication.
 
+Error handlers are for dealing with errors such as page not found or database 
+errors.
 
-TODO: error handlers
+We abstract our routes into a `config/routes.js` file and handle all routing 
+interactions (request and responses) in the `app/controllers` folder. This is 
+because once our application gets huge, it is much easier to keep track and 
+manage of all our routes this way.
 
 [mongodb]: https://scotch.io/tutorials/an-introduction-to-mongodb
 [jade]: http://jade-lang.com
