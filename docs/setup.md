@@ -93,7 +93,7 @@ Here is what the project should look like so far:
 ¦   |---controllers/          # handling routes
 ¦         main_controller.js  // handle index (/) routes
 ¦   |---views/
-¦       |---layouts/          // base html templates
+¦       |---layouts/          # base html templates
 ¦           error.jade        // 404 or 500 error page
 ¦           index.jade        // home page
 |---config/
