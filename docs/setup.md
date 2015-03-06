@@ -15,11 +15,11 @@ to start this project.
 Initial Files
 -------------
 
-I used `git init` to start a git repository and `npm init` to create a 
+We used `git init` to start a git repository and `npm init` to create a 
 `package.json` file.
 `server.js` will be the main file used and it is the center of the app. It 
 will start the application, loading all dependencies and routes. 
-I also created a `config/config.js` file to hold all our configuration 
+We also created a `config/config.js` file to hold all our configuration 
 variables.
 
 MongoDB
@@ -28,13 +28,22 @@ MongoDB
 We are using the MongoDB NoSql database. If you haven't mess around with 
 MongoDB yet, here is a good [introduction][mongodb] to it.
 
-<a name="config" />
-## App Configuration
+App Configuration
+-----------------
 
 We are using [Jade][jade] to render out to html. This has many advantages like 
 template inheritance, looping, and other great stuff.
 
-TODO: more app config and error handlers
+Jade will minify the html as a default but in development we don't want Jade 
+to minify html so we set it to pretty to do this. Morgan is a logger to tell 
+us what files loaded and how long it took in the console.
+
+Body parser is for being able to parse form requests and json.
+Static files are for CSS, JavaScript, and images file being using on the 
+client. CORS requests being enabled are for json web token authentication.
+
+
+TODO: error handlers
 
 [mongodb]: https://scotch.io/tutorials/an-introduction-to-mongodb
 [jade]: http://jade-lang.com
