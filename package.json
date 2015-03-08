@@ -1,12 +1,10 @@
 {
   "name": "buma",
   "version": "0.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Platform that creates and powers amazing communities.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
   "dependencies": {
     "bcrypt-nodejs": "^0.0.3",
     "body-parser": "^1.12.0",

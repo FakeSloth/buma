@@ -1,6 +1,6 @@
 # buma
 
-WIP description...
+Platform that creates and powers amazing communities.
 
 # Getting Started
 
