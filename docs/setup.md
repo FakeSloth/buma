@@ -60,9 +60,11 @@ manage all our routes this way.
 Bower
 -----
 
-We will used bower to manage frontend dependencies like bootstrap. First, 
-we used `bower init` to generate a `bower.json` file. This is similar to the 
-`package.json` where it contains the dependencies' name and it's version.
+We will used bower to manage frontend dependencies like bootstrap. To install 
+bower, we used `npm install bower -g`.
+
+First, we used `bower init` to generate a `bower.json` file. This is similar to 
+the `package.json` where it contains the dependencies' name and it's version.
 Then, we created a file called `.bowerrc`. The `.bowerrc` is to specify where 
 we want the dependencies installed. In this case, we want it installed in the 
 `public` folder. Bower creates a folder called `bower_compontents` that 
@@ -111,4 +113,18 @@ Here is what the project should look like so far:
 ¦ server.js                   // application setup
 ```
 
-TODO: Take a look at all the files at this [Git commit](404).
+TODO: Take a look at all the files at this [Git commit](404). 
+If you want to run it locally:
+
+```bash
+$ mongod
+```
+
+Open another terminal or command prompt:
+
+```bash
+$ git clone -b setup https://github.com/FakeSloth/buma.git
+$ cd buma
+$ npm install && bower install
+$ node server.js
+```
