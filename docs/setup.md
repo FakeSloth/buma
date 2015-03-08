@@ -11,6 +11,7 @@ to start this project.
 - [Bower](#bower)
 - [Depedencies](#dependencies)
 - [Project Structure](#project-structure)
+- [Running Locally](#running-locally)
 
 Initial Files
 -------------
@@ -114,6 +115,10 @@ Here is what the project should look like so far:
 ```
 
 TODO: Take a look at all the files at this [Git commit](404). 
+
+Running Locally
+---------------
+
 If you want to run it locally:
 
 ```bash
