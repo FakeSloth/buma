@@ -10,7 +10,7 @@ will start the application, loading all dependencies and routes.
 
 Next, I want to implement a authentication system which is login/signup. 
 I will be using json web tokens for this. If you don't know what json web 
-tokens are check out this [great article](jwt) about it.
+tokens are check out this [great article][jwt] about it.
 
-
+jsonwebtoken - A compact URL-safe means of representing claims to be exchange.
 [jwt]: https://scotch.io/tutorials/the-ins-and-outs-of-token-based-authentication
