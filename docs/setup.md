@@ -26,13 +26,28 @@ variables.
 MongoDB
 -------
 
-We are using the MongoDB NoSql database. To install MongoDB on your computer, see these [instructions][installation]. If you haven't mess around with 
-MongoDB yet, here is a good [introduction][mongodb] to it.
+We are using the MongoDB NoSql database. MongoDB makes working with a database 
+simple and elegant, providing agility and freedom to scale. The benefits of 
+using a document database like MongoDB means that you can work with JSON-style 
+documents in the frontend (client) and the backend (server).
 
-We are using `mongoose` to connect to a MongoDB database and it allows us to have access to the MongoDB commands.
+To install MongoDB on your computer, see these [instructions][installation].
+
+Before we can start creating and saving documents in our database, we have to 
+start up MongoDB. There won’t be anything to save to if the service isn’t 
+started! The command is very simple to get MongoDB up and running:
+
+```bash
+$ mongod
+```
+
+Once we have issue this command, MongoDB will start up and you should see: 
+`waiting for connections on port 27017`.
+
+In our node.js application, we are using `mongoose` to connect to a MongoDB 
+database and it allows us to have access to the MongoDB commands.
 
 [installation]: http://docs.mongodb.org/manual/installation
-[mongodb]: https://scotch.io/tutorials/an-introduction-to-mongodb
 
 App Configuration
 -----------------
