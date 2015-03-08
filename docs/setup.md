@@ -129,7 +129,9 @@ Here is what the project should look like so far:
 ¦ server.js                   // application setup
 ```
 
-TODO: Take a look at all the files at this [Git commit](404). 
+Take a look at all the files at this [Git commit][git].
+
+[git]: https://github.com/FakeSloth/buma/tree/71f906517e73fb7c8ab67bc45349fea92be3624d
 
 Running Locally
 ---------------
