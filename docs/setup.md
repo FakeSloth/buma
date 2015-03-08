@@ -28,6 +28,8 @@ MongoDB
 We are using the MongoDB NoSql database. To install MongoDB on your computer, see these [instructions][installation]. If you haven't mess around with 
 MongoDB yet, here is a good [introduction][mongodb] to it.
 
+We are using `mongoose` to connect to a MongoDB database and it allows us to have access to the MongoDB commands.
+
 [installation]: http://docs.mongodb.org/manual/installation
 [mongodb]: https://scotch.io/tutorials/an-introduction-to-mongodb
 
