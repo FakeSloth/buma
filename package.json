@@ -5,6 +5,16 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "author": "Philip La <birkal@outlook.com>",
+  "contributors": [
+    "Logan Saunders <timandmoby@gmail.com>",
+    "Bryce DeJausserand",
+    "Sevag Satamian <sevagsatamian@gmail.com>"
+  ],
+  "repository": "fakesloth/buma",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
   "dependencies": {
     "bcrypt-nodejs": "^0.0.3",
     "body-parser": "^1.12.0",
