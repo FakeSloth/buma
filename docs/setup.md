@@ -25,9 +25,10 @@ variables.
 MongoDB
 -------
 
-We are using the MongoDB NoSql database. If you haven't mess around with 
+We are using the MongoDB NoSql database. To install MongoDB on your computer, see these [instructions][installation]. If you haven't mess around with 
 MongoDB yet, here is a good [introduction][mongodb] to it.
 
+[installation]: http://docs.mongodb.org/manual/installation
 [mongodb]: https://scotch.io/tutorials/an-introduction-to-mongodb
 
 App Configuration
