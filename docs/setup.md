@@ -61,11 +61,12 @@ Bower
 -----
 
 We will used bower to manage frontend dependencies like bootstrap. First, 
-use `bower init` to generate a `bower.json` file. This is similar to the 
-`package.json` where it contains the dependencies' name and it's version. The 
-`.bowerrc` is to specify where we want the dependencies installed. In this 
-case, we want it installed in the `public` folder. Bower creates a folder 
-called `bower_compontents` that contains all our dependencies.
+we used `bower init` to generate a `bower.json` file. This is similar to the 
+`package.json` where it contains the dependencies' name and it's version.
+Then, we created a file called `.bowerrc`. The `.bowerrc` is to specify where 
+we want the dependencies installed. In this case, we want it installed in the 
+`public` folder. Bower creates a folder called `bower_compontents` that 
+contains all our dependencies.
 
 The first dependency we are going to installed is `bootstrap` using the 
 command  `bower install bootstrap --save`. The `--save` is to specify saving 
