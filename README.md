@@ -2,15 +2,24 @@
 
 Platform that creates and powers amazing communities.
 
-# Getting Started
+## Installing and Running Locally
 
-First, I want to setup the site to get it up and running. 
-`server.js` will be the main file used for being the center of app. It 
-will start the application, loading all dependencies and routes.
+```bash
+$ git clone https://github.com/FakeSloth/buma.git
+$ cd buma
+$ npm install && bower install
+$ node server.js
+```
 
-Next, I want to implement a authentication system which is login/signup. 
-I will be using json web tokens for this. If you don't know what json web 
-tokens are check out this [great article][jwt] about it.
+## Contributing
 
-jsonwebtoken - A compact URL-safe means of representing claims to be exchange.
-[jwt]: https://scotch.io/tutorials/the-ins-and-outs-of-token-based-authentication
+#### Bug Reports & Feature Requests
+Please use the [issue tracker](https://github.com/creaturephil/usub/issues) to report any bugs or file feature requests.
+
+#### Code Style
+This project uses [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript) with a few minor exceptions. If you are submitting a pull request that involves Jade templates, please make sure you are using *spaces*, not tabs.
+
+## License
+
+[MIT](LICENSE)
+
