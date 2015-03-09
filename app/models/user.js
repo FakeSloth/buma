@@ -3,19 +3,25 @@ var crypto = require('crypto');
 var mongoose = require('mongoose');
 
 var userSchema = new mongoose.Schema({
+  email: { type: String, unique: true, lowercase: true, required: true },
+  password: { type: String, required: true }
   uid: { type: String, unique: true, lowercase: true },
-  username: { type: String, unique: true },
-  email: { type: String, unique: true, lowercase: true },
-  password: String
+  username: { type: String, unique: true, required: true, validator: [
+    { validator: function(val) { return /^[A-Za-z0-9]*$/.test(val) }, msg: 'Only letters and numbers are allow in username.' },
+    { validator: function(val) { return val.length <= 20 }, msg: 'Username cannot be more than 20 characters.' },
+  ] },
+  joinDate: { type: Date, default: Date.now() }
 });
 
 /**
- * Hash the password for security.
+ * Hash the password for security and create uid from username.
  * "Pre" is a Mongoose middleware that executes before each user.save() call.
  */
 
 userSchema.pre('save', function(next) {
   var user = this;
+
+  user.uid = user.username.toLowerCase();
 
   if (!user.isModified('password')) return next();
 
