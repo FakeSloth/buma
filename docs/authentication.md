@@ -5,7 +5,7 @@ logging in and signing up.
 We will be using JSON web tokens for this. JSON web token is a compact 
 URL-safe means of representing claims to be exchange. It keeps sessions 
 consistent without having to store a bunch of data on the server. For more 
-information on json web tokens, check out this [great article][jwt] about it.
+information on JSON web tokens, check out this [great article][jwt] about it.
 
 [jwt]: https://scotch.io/tutorials/the-ins-and-outs-of-token-based-authentication
 
