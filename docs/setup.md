@@ -16,6 +16,9 @@ to start this project.
 Initial Files
 -------------
 
+Reference file(s): [`config/config.js`](../config/config.js), 
+[`package.json`](../package.json), [`server.js`](../server.js)
+
 We used `git init` to start a git repository and `npm init` to create a 
 `package.json` file.
 `server.js` will be the main file used and it is the center of the app. It 
@@ -52,6 +55,9 @@ database and it allows us to have access to the MongoDB commands.
 App Configuration
 -----------------
 
+Reference file(s): [`app`](../app) ,[`config/routes.js`](../config/routes.js), 
+[`server.js`](../server.js)
+
 We are using [Jade][jade] to render out to html. This has many advantages like 
 template inheritance, looping, and other great stuff.
 
@@ -76,6 +82,8 @@ manage all our routes this way.
 Bower
 -----
 
+Reference file(s): [`.bowerrc`](../.bowerrc) ,[`bower.json`](../bower.json)
+
 We will used bower to manage frontend dependencies like bootstrap. To install 
 bower, we used `npm install bower -g`.
 
@@ -93,6 +101,8 @@ can just `bower install` the dependencies.
 
 Dependencies
 ------------
+
+Reference files: [`package.json`](../package.json)
 
 Here are all the following dependencies we have so far and what they do:
 
