@@ -82,7 +82,7 @@ manage all our routes this way.
 Bower
 -----
 
-Reference file(s): [`.bowerrc`](../.bowerrc) ,[`bower.json`](../bower.json)
+Reference file(s): [`.bowerrc`](../.bowerrc), [`bower.json`](../bower.json)
 
 We will used bower to manage frontend dependencies like bootstrap. To install 
 bower, we used `npm install bower -g`.

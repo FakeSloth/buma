@@ -16,7 +16,7 @@ information on JSON web tokens, check out this [great article][jwt] about it.
 Model
 -----
 
-Reference file(s): [`app/models/users.js`](../app/models/users.js)
+Reference file(s): [`app/models/users.js`](../app/models/user.js)
 
 Using `mongoose` allows us to create a schema (aka template) for the user.
 We have the standard email, username, and password fields. `uid` stands for
