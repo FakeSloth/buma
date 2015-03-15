@@ -1,4 +1,5 @@
 extends layouts/base
 
 block content
-  h1 Hello World!
+  div(ng-controller="mainCtrl")
+    h1(ng-bind="hello")
