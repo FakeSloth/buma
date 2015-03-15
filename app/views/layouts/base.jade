@@ -16,7 +16,10 @@ html(lang="en" ng-app="bumaApp")
     link(rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css")
   body
 
-    block content
+    include ../partials/navbar
+
+    .container
+      block content
 
     script(src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js")
     script(src="/bower_components/bootstrap/dist/js/bootstrap.min.js")
