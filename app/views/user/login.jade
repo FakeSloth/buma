@@ -1,0 +1,14 @@
+extends ../layouts/base
+
+block content
+  .col-md-6.col-md-offset-3
+    h1.text-center Login
+    form
+      .form-group
+        label Email or Username
+        input.form-control(type="text" placeholder="Email or Username")
+      .form-group
+        label Password
+        input.form-control(type="text" placeholder="Password")
+      .text-center
+        button.btn.btn-primary(type="submit") Login
